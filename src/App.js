@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from './components/Layout/Layout'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-succes'>shiva</h1>
-    </div>
+    <>
+      <Layout/>
+    </>
   )
 }
 
