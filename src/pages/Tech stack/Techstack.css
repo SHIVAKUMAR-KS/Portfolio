@@ -1,0 +1,13 @@
+.teckstack{
+    padding-left:130px ;
+    margin-top: 60px ;
+}
+.teckstack hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+.teckstack .h2{
+    font-weight:bold ;
+    color: #138781;
+}
