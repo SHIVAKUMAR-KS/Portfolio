@@ -9,8 +9,8 @@ const Home = () => {
     <>
       <div className='container-fluid home-container'>
         <div className='container home-content'>
-          <h1>Hi I'm a</h1>
-          <h2>
+          <h2>Hi 👋I'm a</h2>
+          <h1>
           <Typewriter
             options={{
               strings: [
@@ -21,7 +21,7 @@ const Home = () => {
             }}
           />
 
-          </h2>
+          </h1>
           <div className='home-buttons'>
             <a className='btn btn-hire' href={Hired} download="Your_cv.pdf">Hire Me</a>
             <a className='btn btn-cv' href={Resume} download="Your_name.pdf">My Resume</a>
