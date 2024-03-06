@@ -1,6 +1,6 @@
 .teckstack{
-    padding-left:130px ;
-    margin-top: 60px ;
+    padding-left:150px ;
+    margin-top: 80px ;
 }
 .teckstack hr{
     color: #138781;
@@ -13,6 +13,7 @@
 }
 .techstack .card {
     cursor: pointer;
+   
   }
   .techstack .tech-icon{
     font-size: 2rem;
