@@ -30,26 +30,25 @@ const Menus = ({toggle}) => {
                     About
                 </div>
                 <div className='nav-link'>
-                <BsPersonWorkspace />
-                    Work Experinence
-                </div>
-                <div className='nav-link'>
-                <MdBiotech/>
-                    Tech Stack
-                </div>
-                <div className='nav-link'>
                 <FaBookReader />
                     Education
                 </div>
                 
+                
+                <div className='nav-link'>
+                <MdBiotech/>
+                    Tech Stack
+                </div>
+               
                 <div className='nav-link'>
                 <GiFilmProjector />
                     Project
                 </div>
                 <div className='nav-link'>
-                <FcDebt />
-                    Testimonial
+                <BsPersonWorkspace />
+                    Work Experinence
                 </div>
+                
                 <div className='nav-link'>
                 <MdConnectWithoutContact />
                     Contact
@@ -72,26 +71,25 @@ const Menus = ({toggle}) => {
                     
                 </div>
                 <div className='nav-link'>
-                <BsPersonWorkspace title='Work Experinece'/>
+                <FaBookReader title='Education'/>
                     
                 </div>
+                
                 <div className='nav-link'>
                 <MdBiotech title='Tech stack'/>
                     
                 </div>
-                <div className='nav-link'>
-                <FaBookReader title='Education'/>
-                    
-                </div>
+               
                 
                 <div className='nav-link'>
                 <GiFilmProjector title='Project'/>
                     
                 </div>
                 <div className='nav-link'>
-                <FcDebt title='Testimonial'/>
+                <BsPersonWorkspace title='Work Experinece'/>
                     
                 </div>
+               
                 <div className='nav-link'>
                 <MdConnectWithoutContact title='Contact' />
                     

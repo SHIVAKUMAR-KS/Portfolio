@@ -4,9 +4,11 @@ import './Project.css'
 const Project = () => {
   return (
     <>
-      <div className='container project'>
+      <div className=' project'>
     
-      <h2 className='col-12 mt-3 mb-1 text-center text-uppercase'>TOP RECENT PROJECTS</h2>
+      <h2 className='col-12 mt-3 mb-1 text-center text-uppercase'>
+        TOP RECENT PROJECTS
+        </h2>
             <hr/>
             <p className='pb-3 text-center'>❤️❤️Here are my top 3 recent project with live links and source code
             m Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
