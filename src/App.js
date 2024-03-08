@@ -7,10 +7,13 @@ import Education from './pages/Education/Education'
 import Work from './pages/Work/Work'
 import Contact from './pages/Contact/Contact'
 import ScrollToTop from "react-scroll-to-top";
+import { useTheme } from './context/ThemeContext'
 
 const App = () => {
+  const [theme]=useTheme();
   return (
     <>
+    <div id={theme}>
       <Layout/>
       <div className='containers'>
           <About/>
@@ -20,12 +23,13 @@ const App = () => {
           <Work/>
           <Contact/>
       </div>
-      <div className='footer mb-3 ms-3'>
+      <div className='footer pb-3 ms-3'>
         <h4 className='text-center'>
           Made with Shiva❤️ &copy; 2024
 
         </h4>
       </div>
+    </div>
       <ScrollToTop smooth color='orange' style={{background:'#1e1e2c',borderRadius:'80px'}}/>
       
     </>

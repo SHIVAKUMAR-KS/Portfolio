@@ -3,3 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Dark mode css code */
+#dark {
+  background-color: #5f264a;
+  color: #f4eee0;
+}
