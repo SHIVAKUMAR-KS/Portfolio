@@ -6,7 +6,7 @@ const Project = () => {
     <>
       <div className=' project'>
     
-      <h2 className='col-12 mt-3 mb-1 text-center text-uppercase'>
+      <h2 className='col-12 mt-3 mb-1 text-center text-uppercase' id='project'>
         TOP RECENT PROJECTS
         </h2>
             <hr/>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Menus.css'
+import { Link} from 'react-scroll';
 import {FcAbout, FcHome} from 'react-icons/fc'
 import {MdBiotech} from 'react-icons/md'
 import { BsPersonWorkspace } from "react-icons/bs";
@@ -22,36 +23,91 @@ const Menus = ({toggle}) => {
         <div className='nav-items'>
             <div className='nav-item'>
                 <div className='nav-link'>
+                    <Link 
+                    to='home' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
                     <FcHome />
                     Home
+                    </Link>
+                    
                 </div>
                 <div className='nav-link'>
-                 <FcAbout />
+                    <Link 
+                    to='about' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                    <FcAbout />
                     About
+                    </Link>
+                 
                 </div>
                 <div className='nav-link'>
-                <FaBookReader />
+                    <Link
+                    to='education' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                    <FaBookReader />
                     Education
+                    </Link>
+                
                 </div>
                 
                 
                 <div className='nav-link'>
-                <MdBiotech/>
+                    <Link
+                    to='techstack' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                    <MdBiotech/>
                     Tech Stack
+                    </Link>
+                
                 </div>
                
                 <div className='nav-link'>
+                    <Link
+                    to='project' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
                 <GiFilmProjector />
                     Project
+                    </Link>
                 </div>
                 <div className='nav-link'>
+                    <Link
+                    to='work-exp' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} 
+                    duration={100}
+                    >
                 <BsPersonWorkspace />
-                    Work Experinence
+                    Work Experinence  
+                    </Link>
                 </div>
                 
                 <div className='nav-link'>
-                <MdConnectWithoutContact />
+                    <Link
+                    to='contact' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                    <MdConnectWithoutContact />
                     Contact
+                    </Link>
+                
                 </div>
 
             </div>
@@ -63,35 +119,92 @@ const Menus = ({toggle}) => {
         <div className='nav-items'>
             <div className='nav-item'>
                 <div className='nav-link'>
-                    <FcHome title='Home'/>
+                <Link 
+                    to='home' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                    <FcHome />
+                    
+                    </Link>
                     
                 </div>
                 <div className='nav-link'>
-                 <FcAbout title='About'/>
+                <Link 
+                    to='about' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                    <FcAbout />
+                    
+                    </Link>
                     
                 </div>
                 <div className='nav-link'>
-                <FaBookReader title='Education'/>
+                <Link
+                    to='education' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                    <FaBookReader />
+                    
+                    </Link>
                     
                 </div>
                 
                 <div className='nav-link'>
-                <MdBiotech title='Tech stack'/>
+                <Link
+                    to='techstack' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                    <MdBiotech/>
+                     
+                    </Link>
                     
                 </div>
                
                 
                 <div className='nav-link'>
-                <GiFilmProjector title='Project'/>
+                <Link
+                    to='project' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                <GiFilmProjector />
+                    
+                    </Link>
                     
                 </div>
                 <div className='nav-link'>
-                <BsPersonWorkspace title='Work Experinece'/>
+                <Link
+                    to='work-exp' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} 
+                    duration={100}
+                    >
+                <BsPersonWorkspace />
+                       
+                    </Link>
                     
                 </div>
                
                 <div className='nav-link'>
-                <MdConnectWithoutContact title='Contact' />
+                <Link
+                    to='contact' 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} duration={100}
+                    >
+                    <MdConnectWithoutContact />
+                    
+                    </Link>
                     
                 </div>
 

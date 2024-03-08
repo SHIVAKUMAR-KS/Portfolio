@@ -6,6 +6,7 @@ import Project from './pages/Projects/Project'
 import Education from './pages/Education/Education'
 import Work from './pages/Work/Work'
 import Contact from './pages/Contact/Contact'
+import ScrollToTop from "react-scroll-to-top";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
 
         </h4>
       </div>
+      <ScrollToTop smooth color='orange' style={{background:'#1e1e2c',borderRadius:'80px'}}/>
       
     </>
   )

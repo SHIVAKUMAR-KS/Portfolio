@@ -7,7 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-    <div className='contact'>
+    <div className='contact' id='contact'>
         <div className='card card0 border-0'>
             <div className='row'>
                 <div className='col-md-c ol-lg-6 col-xk-6 col-sm-12'>
