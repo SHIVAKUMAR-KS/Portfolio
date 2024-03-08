@@ -47,7 +47,7 @@
     
 
 }
-.card:hover{
+.project .card:hover{
     background-color: white;
     border-radius: 4px;
     
