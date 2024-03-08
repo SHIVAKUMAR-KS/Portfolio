@@ -8,7 +8,7 @@ import { FaBookReader } from "react-icons/fa";
 import { GiFilmProjector } from "react-icons/gi";
 import { FcDebt } from "react-icons/fc";
 import { MdConnectWithoutContact } from "react-icons/md";
-
+import Zoom from 'react-reveal/Zoom';
 
 
 
@@ -17,9 +17,12 @@ const Menus = ({toggle}) => {
     <>
     {toggle ? (
         <>
-        <div className='nav-profile-pic'>
+        <Zoom>
+            <div className='nav-profile-pic'>
             <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" alt='profile pic' />
         </div>
+        </Zoom>
+        
         <div className='nav-items'>
             <div className='nav-item'>
                 <div className='nav-link'>
