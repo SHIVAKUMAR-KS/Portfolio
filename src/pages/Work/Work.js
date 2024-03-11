@@ -41,7 +41,7 @@ const Work = () => {
     <h3 className="vertical-timeline-element-title">Python  developer</h3>
     <h4 className="vertical-timeline-element-subtitle">Cmr Technical Campus</h4>
     <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      Creative Direction, User Experience, VisualDesignining, Project Management, Team Leading
     </p>
   </VerticalTimelineElement>
         <VerticalTimelineElement
