@@ -8,7 +8,7 @@ const Techstack = () => {
       <div className='container techstack' id='techstack'>
         <h2 className='col-12 mt-3 mb-1 text-center text-uppercase'>Technologies Stack</h2>
         <hr/>
-        <p className='pb-2 text-center'>❤️❤️ including program language,framework,database,frontend,backend and API's</p>
+        <p className='pb-2 text-center'>Including program language,framework,database,frontend,backend and API's</p>
         <div className="row">
           {TechstackList.map((tech) => (
             

@@ -9,6 +9,7 @@ import { GiFilmProjector } from "react-icons/gi";
 import { FcDebt } from "react-icons/fc";
 import { MdConnectWithoutContact } from "react-icons/md";
 import Zoom from 'react-reveal/Zoom';
+import pic from '../../asssets/images/shiva.jpeg'
 
 
 
@@ -19,7 +20,8 @@ const Menus = ({toggle}) => {
         <>
         <Zoom>
             <div className='nav-profile-pic'>
-            <img src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw" alt='profile pic' />
+            <img src={pic} alt='profile pic' />
+            <h1 >Shiva Kumar</h1>
         </div>
         </Zoom>
         

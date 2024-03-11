@@ -74,7 +74,7 @@ const Contact = () => {
                 <label >Write Your message here</label>
                 <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
 
-                <button type='submit' className='btn dark-btn'>Submit now <img src='' alt="" /></button>
+                <button type='submit' className='sub-btn dark-btn'>Submit now <img src='' alt="" /></button>
             </form>
 
             <span>{result}</span>

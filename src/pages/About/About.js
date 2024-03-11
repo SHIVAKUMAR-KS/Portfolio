@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import pic from '../../asssets/images/shiva.jpeg'
 
 
 const About = () => {
@@ -7,18 +8,18 @@ const About = () => {
     <>
       <div className='about' id='about'>
         <div className='row'>
-            <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img'>
+            <div className='col-md-6 col-xl-3 col-lg-20 col-xs-30 about-img'>
                 <img
-                src="https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw"
+                src={pic}
                 alt='profile_pic'/>
 
             </div>
             <div className='col-md-6 about-content'>
                 <h1>About me</h1>
                 <p>
-                   lorem inspndafjc  ndnj  cjdnf j  jndjdeneffj   djend  
-                   c jfniefn f fae fejferebg btgwev cuefberew frrwrwrer fae
-                   frwerwevv rrtWEF RGRTWF ferer
+                  <b>A passionate software developer from India</b>
+                  <hr/>
+                    Welcome to my corner of the digital world! I'm a passionate second-year Computer Science student with a flair for crafting innovative solutions. My journey into the realm of technology began with a curiosity-driven exploration of coding languages and problem-solving methodologies.
                     
                 </p>
             </div>

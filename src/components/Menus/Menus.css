@@ -1,12 +1,20 @@
 .nav-profile-pic img{
-    border-radius: 90px;
-    height: 150px;
-    width: 150px;
+    border-radius: 100px;
+    height: 200px;
+    width: 160px;
     display: flex;
     vertical-align: middle;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
 
+
+}
+.nav-profile-pic h1{
+    color: rgb(232, 131, 9);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 50px;
+    padding-left: 80px;
 }
 .nav-item{
     color: white;
