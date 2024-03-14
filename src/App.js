@@ -27,7 +27,7 @@ const App = () => {
       </div>
       <div className='footer pb-3 ms-3'>
         <h4 className='text-center'>
-          Made with Shiva kumar👋 &copy; 2024
+          Made with Shiva kumar👋 &copy; 2023-24
 
         </h4>
       </div>
