@@ -50,7 +50,7 @@ const Contact = () => {
                 <div className="row" onSubmit={onSubmit}>
                   <div className="row">
                     <h6>
-                      Contact With
+                      Contact Withs
                       <BsLinkedin color="blue" size={30} className="ms-2" />
                       <BsGithub color="black" size={30} className="ms-2" />
                       <BsFacebook color="blue" size={30} className="ms-2" />
