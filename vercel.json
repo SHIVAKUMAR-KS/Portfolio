@@ -2,10 +2,10 @@
   "version": 2,
   "builds": [
     {
-      "src": "build-command", // Replace "build-command" with your actual build command
+      "src": "build-command", 
       "use": "@vercel/node",
       "config": {
-        "command": "npm install --force && npm run build" // Add --force flag here
+        "command": "npm install --force && npm run build" 
       }
     }
   ]
