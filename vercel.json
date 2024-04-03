@@ -1,12 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "build-command", 
-      "use": "@vercel/node",
-      "config": {
-        "command": "npm install --force && npm run build" 
-      }
-    }
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
   ]
 }
